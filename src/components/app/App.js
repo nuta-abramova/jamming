@@ -23,7 +23,7 @@ class App extends Component {
           <div className="App">
             <SearchBar />
             <div className="App-playlist">
-              <SearchResults searchResults={this.state.searchResults} />
+              <SearchResults searchRes={this.state.searchResults} />
               <PlayList />
             </div>
           </div>
